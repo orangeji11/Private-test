@@ -17,7 +17,7 @@ environment variable to the container definition and run the new pod.
 
 Then you can re-create the pod as with the first example, get the new IP
 address, and then curl will show your new message:
-openshift
+
     $ curl 10.1.0.2:8888
      Hello World!
 
