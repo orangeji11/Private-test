@@ -1,13 +1,13 @@
 ## Hello, UTCCP! ##
 
-A sample app that is built using the [S2I golang builder](https://github.com/sclorg/golang-container).
+A sample app that is built using the [S2I golang builder](https://github.com/utccp/golang-container).
 
 This example will serve an HTTP response of "Hello UTCCP!" written in Golang. It is also
-intended to be used with an evolving [Golang Source-to-Image builder image](https://github.com/sclorg/golang-container).
+intended to be used with an evolving [Golang Source-to-Image builder image](https://github.com/utccp/golang-container).
 
 Once the image-stream is loaded into utccp, you can easily deploy it by doing:
 
-    $ oc new-app golang~https://github.com/sclorg/golang-ex.git
+    $ oc new-app golang~https://github.com/utccp/golang-ex.git
 
 Note: this is reused [example hello_utccp from UTCCP Origin](https://github.com/utccp/origin), separating it out will allow only the need to clone this example repo instead of all of the origin one.
 
